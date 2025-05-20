@@ -1,0 +1,17 @@
+<?php
+echo <<<HTML
+<form method='post' action='/classes'>
+    <fieldset>
+    <label for="class">Osztály</label>
+    <input type="text" name="class" id="name" value=""><br>
+    <label for="schoolYear">Év</label>
+    <input type="text" name="schoolYear" id="name" value="">
+    <br>
+    <button type="submit" name="btn-update" class="btn-save"><i class="fa fa-save"></i>&nbsp;Mentés</button>
+</fieldset>
+</form>
+<form method='post' action='/classes'>
+<input type="hidden" name="_method" value="GET">
+<button type="submit" name="btn-cancel" class="btn-cancel"><i class="fa fa-undo"></i>&nbsp;Vissza</button>
+</form>
+HTML;

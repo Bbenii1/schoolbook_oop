@@ -1,5 +1,7 @@
 <?php
+
 namespace App\Routing;
+
 use App\Controllers\ClassController;
 use App\Controllers\HomeController;
 use App\Controllers\SubjectController;
@@ -77,28 +79,53 @@ class Router
                 break;
             case "/subjects/edit":
                 $subjectController = new SubjectController();
-                $subjectController -> edit((int)$id);
+                $subjectController -> edit($id);
                 break;
+
+            case "/classes":
+                if (!empty($data)) {
+                    $classController = new ClassController();
+                    $classController->save($data);
+                }
+                break;
+            case "/classes/create":
+                $classController = new ClassController();
+                $classController->create();
+                break;
+            case "/classes/edit":
+                $classController = new ClassController();
+                $classController->edit($id);
+                break;
+
             default:
                 $this->notFound();
         }
     }
 
-    private function handlePatchRequest(mixed $requestUri): void
+    private function handlePatchRequest(string $requestUri): void
     {
         $data = $this->filterPostData($_POST);
-        switch ($requestUri){
+
+        switch ($requestUri) {
             case "/subjects":
                 $id = $data['id'] ?? null;
                 $subjectController = new SubjectController();
-                $subjectController -> update($id, $data);
+                $subjectController->update($id, $data);
                 break;
+
+            case "/classes":
+                $id = $data['id'] ?? null;
+                $classController = new ClassController();
+                $classController->update($id, $data);
+                break;
+
             default:
                 $this->notFound();
+                break;
         }
     }
 
-    private function handleDeleteRequests(string $requestUri): void
+    private function handleDeleteRequest(string $requestUri): void
     {
         $data = $this->filterPostData($_POST);
 
@@ -107,6 +134,12 @@ class Router
                 $subjectController = new SubjectController();
                 $subjectController->delete((int)$data['id']);
                 break;
+
+            case "/classes":
+                $classController = new ClassController();
+                $classController->delete((int)$data['id']);
+                break;
+
             default:
                 $this->notFound();
                 break;

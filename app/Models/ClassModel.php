@@ -4,22 +4,19 @@ namespace App\Models;
 
 class ClassModel extends Model
 {
-    public string|null $class = null;
-
-    public int|null $schoolYear = null;
+    public ?string $class = null;
+    public ?int $schoolYear = null;
 
     protected static $table = 'classes';
 
-    public function __construct(?string $class = null, ?int $year = null)
+    public function __construct(?string $class = null, ?int $schoolYear = null)
     {
         parent::__construct();
-        if ($class) {
+        if ($class != null) {
             $this->class = $class;
         }
-
-        if ($year) {
-            $this->schoolYear = $year;
+        if ($schoolYear != null) {
+            $this->schoolYear = $schoolYear;
         }
-
     }
 }

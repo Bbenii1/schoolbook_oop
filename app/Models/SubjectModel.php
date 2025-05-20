@@ -4,19 +4,18 @@ namespace App\Models;
 
 class SubjectModel extends Model
 {
-    public string|null $subject = null;
-
+    public ?string $subject = null;
     protected static $table = 'subjects';
 
     public function __construct(?string $name = null)
     {
         parent::__construct();
-        if ($name) {
+        if ($name != null) {
             $this->subject = $name;
         }
     }
 }
-
-//új tantárgy létrehozása:
-//$subject = new Subject('honismeret');
-//$subject->create();
+/* creating a new subject:
+$subject = new Subject("Honvédelmi alapismeretek");
+$subject->create();
+*/

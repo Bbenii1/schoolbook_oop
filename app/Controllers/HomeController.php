@@ -8,6 +8,6 @@ class HomeController
 {
     static function index()
     {
-        View::render('layouts\index.php');
+        View::render('layouts\index');
     }
 }

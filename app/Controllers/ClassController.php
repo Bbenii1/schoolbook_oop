@@ -14,13 +14,14 @@ class ClassController extends Controller {
     public function index(): void
     {
         $classes = $this->model->all(['order_by' => ['class', 'schoolYear'], 'direction' => ['DESC']]);
-        $this->render('Classes\index.php', ['classes' => $classes]);
+        $this->render('classes\index', ['classes' => $classes]);
     }
 
     public function create(): void
     {
         $this->render('classes/create');
     }
+
     public function edit(int $id): void
     {
         $subject = $this->model->find($id);
@@ -34,25 +35,27 @@ class ClassController extends Controller {
 
     public function save(array $data): void
     {
-        if (empty($data['name'])) {
+        if (empty($data['class']) || empty($data['schoolYear'])) {
             $_SESSION['warning_message'] = "A tantárgy neve kötelező mező.";
             $this->redirect('/classes/create'); // Redirect if input is invalid
         }
         // Use the existing model instance
-        $this->model->name = $data['name'];
+        $this->model->class = $data['class'];
+        $this->model->schoolYear = $data['schoolYear'];
         $this->model->create();
         $this->redirect('/classes');
     }
 
     public function update(int $id, array $data): void
     {
-        $subject = $this->model->find($id);
-        if (!$subject || empty($data['name'])) {
+        $class = $this->model->find($id);
+        if (!$class || empty($data['class']) || empty($data['schoolYear'])) {
             // Handle invalid ID or data
             $this->redirect('/classes');
         }
-        $subject->name = $data['name'];
-        $subject->update();
+        $class->class = $data['class'];
+        $class->schoolYear = $data['schoolYear'];
+        $class->update();
         $this->redirect('/classes');
     }
 
@@ -76,7 +79,7 @@ class ClassController extends Controller {
             }
         }
 
-        $this->redirect('/subjects'); // Redirect regardless of success
+        $this->redirect('/classes'); // Redirect regardless of success
     }
 
 }

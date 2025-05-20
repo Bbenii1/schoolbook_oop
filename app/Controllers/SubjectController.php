@@ -14,13 +14,14 @@ class SubjectController extends Controller {
     public function index(): void
     {
         $subjects = $this->model->all(['order_by' => ['subject'], 'direction' => ['ASC']]);
-        $this->render('subjects\index.php', ['subjects' => $subjects]);
+        $this->render('subjects\index', ['subjects' => $subjects]);
     }
 
     public function create(): void
     {
         $this->render('subjects/create');
     }
+
     public function edit(int $id): void
     {
         $subject = $this->model->find($id);
@@ -39,7 +40,7 @@ class SubjectController extends Controller {
             $this->redirect('/subjects/create'); // Redirect if input is invalid
         }
         // Use the existing model instance
-        $this->model->subject = $data['subject'];
+        $this->model->subject = $data['name'];
         $this->model->create();
         $this->redirect('/subjects');
     }
@@ -47,11 +48,11 @@ class SubjectController extends Controller {
     public function update(int $id, array $data): void
     {
         $subject = $this->model->find($id);
-        if (!$subject || empty($data['name'])) {
+        if (!$subject || empty($data['subject'])) {
             // Handle invalid ID or data
             $this->redirect('/subjects');
         }
-        $subject->name = $data['name'];
+        $subject->subject = $data['subject'];
         $subject->update();
         $this->redirect('/subjects');
     }
