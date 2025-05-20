@@ -1,0 +1,110 @@
+[02-Apr-2025 12:54:51 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\layouts/index.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:54:51 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\layouts/index.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:55:44 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\layouts/index.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:55:44 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\layouts/index.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:55:47 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\layouts/index.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:55:47 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\layouts/index.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:55:48 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\layouts/index.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:55:48 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\layouts/index.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:55:49 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\layouts/index.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:55:49 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\layouts/index.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:55:49 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\layouts/index.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:55:49 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\layouts/index.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:55:49 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\layouts/index.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:55:49 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\layouts/index.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:56:27 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\layouts/index.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:56:27 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\layouts/index.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:56:28 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\layouts/index.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:56:28 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\layouts/index.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:56:31 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\layouts/index.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:56:31 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\layouts/index.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:56:32 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\layouts/index.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:56:32 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\layouts/index.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 12:58:58 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts/index.php
+[02-Apr-2025 13:00:01 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\$view.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 13:00:01 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\$view.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 13:00:14 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts/index.php
+[02-Apr-2025 13:00:33 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views$view.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 13:00:33 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views$view.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 13:01:33 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts/index.php
+[02-Apr-2025 13:04:14 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views$view.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 13:04:14 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views$view.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 13:04:49 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views'layouts/index.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 13:04:49 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views'layouts/index.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 13:04:49 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views'layouts/index.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 13:04:49 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views'layouts/index.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 13:05:06 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views'\'layouts/index.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 13:05:06 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views'\'layouts/index.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 13:05:07 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views'\'layouts/index.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 13:05:07 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views'\'layouts/index.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 21
+[02-Apr-2025 13:05:21 UTC] PHP Parse error:  syntax error, unexpected variable "$view", expecting ";" in B:\GitHub\schoolbook_oop\app\Views\View.php on line 32
+[02-Apr-2025 13:05:32 UTC] PHP Parse error:  syntax error, unexpected identifier "View", expecting ";" in B:\GitHub\schoolbook_oop\app\Views\View.php on line 37
+[02-Apr-2025 13:05:33 UTC] PHP Parse error:  syntax error, unexpected identifier "View", expecting ";" in B:\GitHub\schoolbook_oop\app\Views\View.php on line 37
+[02-Apr-2025 13:07:22 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts/index.php
+[02-Apr-2025 13:11:17 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts/index.php
+[02-Apr-2025 13:11:19 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts/index.php
+[02-Apr-2025 13:11:48 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts/index.php
+[02-Apr-2025 13:11:56 UTC] PHP Parse error:  syntax error, unexpected identifier "View", expecting ";" in B:\GitHub\schoolbook_oop\app\Views\View.php on line 37
+[02-Apr-2025 13:12:34 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts/index.php
+[02-Apr-2025 13:12:35 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts/index.php
+[02-Apr-2025 13:12:45 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts/index.php
+[02-Apr-2025 13:12:49 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts/index.php
+[02-Apr-2025 13:13:00 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts/index.php
+[02-Apr-2025 13:13:01 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts/index.php
+[02-Apr-2025 13:13:19 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views
+[02-Apr-2025 13:13:24 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts/index.php
+[02-Apr-2025 13:13:24 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts/index.php
+[02-Apr-2025 13:13:30 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views//layouts/index.php
+[02-Apr-2025 13:13:33 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts/index.php
+[02-Apr-2025 13:13:34 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts/index.php
+[02-Apr-2025 13:13:47 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts/index.php
+[02-Apr-2025 13:14:14 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts\index.php
+[02-Apr-2025 13:14:16 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts\index.php
+[02-Apr-2025 13:15:13 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts\index.php
+[02-Apr-2025 13:15:14 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts\index.php
+[02-Apr-2025 13:15:38 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts\index.php
+[02-Apr-2025 13:15:39 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts\index.php
+[02-Apr-2025 13:15:39 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts\index.php
+[02-Apr-2025 13:15:39 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts\index.php
+[02-Apr-2025 13:15:41 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts\index.php
+[02-Apr-2025 13:15:41 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts\index.php
+[02-Apr-2025 13:15:45 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts\index.php
+[02-Apr-2025 13:16:12 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts\index.php
+[02-Apr-2025 13:16:13 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts\index.php
+[02-Apr-2025 13:16:58 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\layouts\index.php.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 22
+[02-Apr-2025 13:16:58 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\layouts\index.php.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 22
+[02-Apr-2025 13:17:56 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts\index.php
+[02-Apr-2025 13:18:00 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\layouts\index.php.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 22
+[02-Apr-2025 13:18:00 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\layouts\index.php.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 22
+[02-Apr-2025 13:19:48 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\layouts\index.php.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 22
+[02-Apr-2025 13:19:48 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\layouts\index.php.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 22
+[02-Apr-2025 13:19:52 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\layouts\index.php.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 22
+[02-Apr-2025 13:19:52 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\layouts\index.php.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 22
+[02-Apr-2025 13:19:54 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\layouts\index.php.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 22
+[02-Apr-2025 13:19:54 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\layouts\index.php.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 22
+[02-Apr-2025 13:20:10 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts\index.php
+[02-Apr-2025 13:20:34 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts\index.php
+[02-Apr-2025 13:21:21 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\layouts\index): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 22
+[02-Apr-2025 13:21:21 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\layouts\index' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 22
+[02-Apr-2025 13:21:43 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts\index.php
+[02-Apr-2025 13:21:44 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts\index.php
+[02-Apr-2025 13:22:31 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\layouts\index.php.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 22
+[02-Apr-2025 13:22:31 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\layouts\index.php.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 22
+[02-Apr-2025 13:22:51 UTC] PHP Warning:  Undefined variable $viewFile in B:\GitHub\schoolbook_oop\app\Views\View.php on line 12
+[02-Apr-2025 13:22:51 UTC] PHP Deprecated:  file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated in B:\GitHub\schoolbook_oop\app\Views\View.php on line 12
+[02-Apr-2025 13:22:51 UTC] PHP Warning:  Undefined variable $viewFile in B:\GitHub\schoolbook_oop\app\Views\View.php on line 22
+[02-Apr-2025 13:22:51 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in B:\GitHub\schoolbook_oop\app\Views\View.php:22
+Stack trace:
+#0 B:\GitHub\schoolbook_oop\app\Controllers\HomeController.php(11): App\Views\View::render('layouts\\index.p...')
+#1 B:\GitHub\schoolbook_oop\app\Routing\Router.php(46): App\Controllers\HomeController::index()
+#2 B:\GitHub\schoolbook_oop\app\Routing\Router.php(26): App\Routing\Router->handleGetRequest('/')
+#3 B:\GitHub\schoolbook_oop\app\Routing\Router.php(19): App\Routing\Router->dispatch('GET', '/')
+#4 B:\GitHub\schoolbook_oop\index.php(10): App\Routing\Router->handle()
+#5 {main}
+  thrown in B:\GitHub\schoolbook_oop\app\Views\View.php on line 22
+[02-Apr-2025 13:23:20 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\index.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 22
+[02-Apr-2025 13:23:20 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\index.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 22
+[02-Apr-2025 13:23:20 UTC] PHP Warning:  include(B:\GitHub\schoolbook_oop\app\Views\index.php): Failed to open stream: No such file or directory in B:\GitHub\schoolbook_oop\app\Views\View.php on line 22
+[02-Apr-2025 13:23:20 UTC] PHP Warning:  include(): Failed opening 'B:\GitHub\schoolbook_oop\app\Views\index.php' for inclusion (include_path='.;C:\php\pear') in B:\GitHub\schoolbook_oop\app\Views\View.php on line 22
+[02-Apr-2025 13:23:25 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts\index.php
+[02-Apr-2025 13:24:29 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\layouts\index.php

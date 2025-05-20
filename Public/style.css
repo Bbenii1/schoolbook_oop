@@ -1,0 +1,4 @@
+tbody tr td:last-child{
+    display: flex;
+    flex-direction: row;
+}
