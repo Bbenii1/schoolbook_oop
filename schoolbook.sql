@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1:3306
--- Létrehozás ideje: 2025. Máj 20. 20:21
--- Kiszolgáló verziója: 9.1.0
--- PHP verzió: 8.3.14
+-- Létrehozás ideje: 2025. Máj 21. 12:32
+-- Kiszolgáló verziója: 8.3.0
+-- PHP verzió: 8.4.5
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,7 +20,7 @@ SET time_zone = "+00:00";
 --
 -- Adatbázis: `schoolbook`
 --
-CREATE DATABASE IF NOT EXISTS `schoolbook` DEFAULT CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci;
+CREATE DATABASE IF NOT EXISTS `schoolbook` DEFAULT CHARACTER SET utf8mb3 COLLATE utf8mb3_hungarian_ci;
 USE `schoolbook`;
 
 -- --------------------------------------------------------
@@ -32,7 +32,7 @@ USE `schoolbook`;
 DROP TABLE IF EXISTS `classes`;
 CREATE TABLE IF NOT EXISTS `classes` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `class` varchar(30) CHARACTER SET utf8mb3 COLLATE utf8mb3_hungarian_ci NOT NULL,
+  `class` varchar(30) COLLATE utf8mb3_hungarian_ci NOT NULL,
   `schoolYear` year NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_hungarian_ci;
@@ -47,17 +47,21 @@ INSERT INTO `classes` (`id`, `class`, `schoolYear`) VALUES
 (3, '11c', '2022'),
 (4, '12a', '2022'),
 (5, '12b', '2022'),
+(6, '12c', '2022'),
 (7, '11a', '2023'),
 (8, '11b', '2023'),
 (9, '11c', '2023'),
 (10, '12a', '2023'),
 (11, '12b', '2023'),
+(12, '12c', '2023'),
 (13, '11a', '2024'),
 (14, '11b', '2024'),
 (15, '11c', '2024'),
 (16, '12a', '2024'),
 (17, '12b', '2024'),
-(20, '13g', '2002');
+(18, '12c', '2024'),
+(19, '11p', '2000'),
+(20, '11g', '2055');
 
 -- --------------------------------------------------------
 
@@ -7034,19 +7038,19 @@ INSERT INTO `grades` (`studentID`, `subjectID`, `grade`, `date`) VALUES
 
 DROP TABLE IF EXISTS `students`;
 CREATE TABLE IF NOT EXISTS `students` (
-  `studentID` int NOT NULL AUTO_INCREMENT,
-  `firstName` varchar(30) CHARACTER SET utf8mb3 COLLATE utf8mb3_hungarian_ci NOT NULL,
-  `lastName` varchar(30) CHARACTER SET utf8mb3 COLLATE utf8mb3_hungarian_ci NOT NULL,
-  `gender` varchar(30) CHARACTER SET utf8mb3 COLLATE utf8mb3_hungarian_ci NOT NULL,
+  `id` int NOT NULL AUTO_INCREMENT,
+  `firstName` varchar(30) COLLATE utf8mb3_hungarian_ci NOT NULL,
+  `lastName` varchar(30) COLLATE utf8mb3_hungarian_ci NOT NULL,
+  `gender` varchar(30) COLLATE utf8mb3_hungarian_ci NOT NULL,
   `classID` int NOT NULL,
-  PRIMARY KEY (`studentID`)
-) ENGINE=InnoDB AUTO_INCREMENT=217 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_hungarian_ci;
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=218 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_hungarian_ci;
 
 --
 -- A tábla adatainak kiíratása `students`
 --
 
-INSERT INTO `students` (`studentID`, `firstName`, `lastName`, `gender`, `classID`) VALUES
+INSERT INTO `students` (`id`, `firstName`, `lastName`, `gender`, `classID`) VALUES
 (1, 'Pum', 'Áron', 'M', 1),
 (2, 'Kasza', 'Ödön', 'M', 1),
 (3, 'Riz', 'Mercédesz', 'W', 1),
@@ -7054,7 +7058,6 @@ INSERT INTO `students` (`studentID`, `firstName`, `lastName`, `gender`, `classID
 (5, 'Fekete', 'Csaba', 'M', 1),
 (6, 'Szenyo', 'Lenke', 'W', 1),
 (7, 'Har', 'Ella', 'W', 1),
-(8, 'Bármi', 'Áron', 'W', 1),
 (9, 'Minden', 'Rita', 'W', 1),
 (10, 'Bor', 'Áron', 'M', 1),
 (11, 'Budipa', 'Elek', 'M', 1),
@@ -7252,7 +7255,7 @@ INSERT INTO `students` (`studentID`, `firstName`, `lastName`, `gender`, `classID
 (203, 'Kalim', 'Csaba', 'M', 17),
 (204, 'Mikorka', 'Viola', 'W', 17),
 (205, 'Para', 'Elek', 'M', 17),
-(206, 'Bármi', 'Áron', 'M', 18),
+(206, 'Bármid', 'Árond', 'M', 1856),
 (207, 'Szalmon', 'Áron', 'M', 18),
 (208, 'Szikla', 'Elemér', 'M', 18),
 (209, 'Víz', 'Lenke', 'W', 18),
@@ -7272,25 +7275,24 @@ INSERT INTO `students` (`studentID`, `firstName`, `lastName`, `gender`, `classID
 
 DROP TABLE IF EXISTS `subjects`;
 CREATE TABLE IF NOT EXISTS `subjects` (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `subject` varchar(30) CHARACTER SET utf8mb3 COLLATE utf8mb3_hungarian_ci NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_hungarian_ci;
+  `subjectID` int NOT NULL AUTO_INCREMENT,
+  `subject` varchar(30) COLLATE utf8mb3_hungarian_ci NOT NULL,
+  PRIMARY KEY (`subjectID`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_hungarian_ci;
 
 --
 -- A tábla adatainak kiíratása `subjects`
 --
 
-INSERT INTO `subjects` (`id`, `subject`) VALUES
+INSERT INTO `subjects` (`subjectID`, `subject`) VALUES
 (1, 'math'),
 (2, 'history'),
 (3, 'biology'),
 (4, 'chemistry'),
+(5, 'physics'),
 (6, 'informatics'),
 (7, 'alchemy'),
-(8, 'astrology'),
-(9, 'infó'),
-(10, 'valamiu');
+(8, 'astrology');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
