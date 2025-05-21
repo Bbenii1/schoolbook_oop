@@ -8,7 +8,6 @@ foreach ($students as $s) {
                 <td>{$s->firstName}</td>
                 <td>{$s->lastName}</td>
                 <td>{$s->gender}</td>
-                <td>{$s->classID}</td>
                 <td class='flex float-right'>
                     <form method='post' action='/students/edit'>
                         <input type='hidden' name='id' value='{$s->id}'>
@@ -32,7 +31,6 @@ $html = <<<HTML
                     <th>First name</th>
                     <th>Last name</th>
                     <th>Gender</th>
-                    <th>classID</th>
                     <th>
                         <form method='post' action='/students/create'>
                             <button type="submit" name='btn-plus' title='Új'>

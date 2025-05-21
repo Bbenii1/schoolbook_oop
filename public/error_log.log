@@ -1912,3 +1912,78 @@ Stack trace:
 [21-May-2025 12:01:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
 [21-May-2025 12:01:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
 [21-May-2025 12:01:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 12:20:21 UTC] PHP Fatal error:  Uncaught TypeError: App\Controllers\SubjectController::edit(): Argument #1 ($id) must be of type int, string given, called in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 86 and defined in B:\GitHub\schoolbook_oop\app\Controllers\SubjectController.php:25
+Stack trace:
+#0 B:\GitHub\schoolbook_oop\app\Routing\Router.php(86): App\Controllers\SubjectController->edit('')
+#1 B:\GitHub\schoolbook_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequest('/subjects/edit')
+#2 B:\GitHub\schoolbook_oop\app\Routing\Router.php(23): App\Routing\Router->dispatch('POST', '/subjects/edit')
+#3 B:\GitHub\schoolbook_oop\Public\index.php(10): App\Routing\Router->handle()
+#4 {main}
+  thrown in B:\GitHub\schoolbook_oop\app\Controllers\SubjectController.php on line 25
+[21-May-2025 12:20:25 UTC] PHP Fatal error:  Uncaught TypeError: App\Controllers\SubjectController::edit(): Argument #1 ($id) must be of type int, string given, called in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 86 and defined in B:\GitHub\schoolbook_oop\app\Controllers\SubjectController.php:25
+Stack trace:
+#0 B:\GitHub\schoolbook_oop\app\Routing\Router.php(86): App\Controllers\SubjectController->edit('')
+#1 B:\GitHub\schoolbook_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequest('/subjects/edit')
+#2 B:\GitHub\schoolbook_oop\app\Routing\Router.php(23): App\Routing\Router->dispatch('POST', '/subjects/edit')
+#3 B:\GitHub\schoolbook_oop\Public\index.php(10): App\Routing\Router->handle()
+#4 {main}
+  thrown in B:\GitHub\schoolbook_oop\app\Controllers\SubjectController.php on line 25
+[21-May-2025 12:20:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 12:21:21 UTC] PHP Fatal error:  Uncaught TypeError: App\Controllers\ClassController::edit(): Argument #1 ($id) must be of type int, string given, called in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 116 and defined in B:\GitHub\schoolbook_oop\app\Controllers\ClassController.php:25
+Stack trace:
+#0 B:\GitHub\schoolbook_oop\app\Routing\Router.php(116): App\Controllers\ClassController->edit('')
+#1 B:\GitHub\schoolbook_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequest('/classes/edit')
+#2 B:\GitHub\schoolbook_oop\app\Routing\Router.php(23): App\Routing\Router->dispatch('POST', '/classes/edit')
+#3 B:\GitHub\schoolbook_oop\Public\index.php(10): App\Routing\Router->handle()
+#4 {main}
+  thrown in B:\GitHub\schoolbook_oop\app\Controllers\ClassController.php on line 25
+[21-May-2025 12:22:57 UTC] PHP Fatal error:  Uncaught TypeError: App\Controllers\ClassController::edit(): Argument #1 ($id) must be of type int, string given, called in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 116 and defined in B:\GitHub\schoolbook_oop\app\Controllers\ClassController.php:25
+Stack trace:
+#0 B:\GitHub\schoolbook_oop\app\Routing\Router.php(116): App\Controllers\ClassController->edit('')
+#1 B:\GitHub\schoolbook_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequest('/classes/edit')
+#2 B:\GitHub\schoolbook_oop\app\Routing\Router.php(23): App\Routing\Router->dispatch('POST', '/classes/edit')
+#3 B:\GitHub\schoolbook_oop\Public\index.php(10): App\Routing\Router->handle()
+#4 {main}
+  thrown in B:\GitHub\schoolbook_oop\app\Controllers\ClassController.php on line 25
+[21-May-2025 12:23:01 UTC] PHP Fatal error:  Uncaught TypeError: App\Controllers\ClassController::edit(): Argument #1 ($id) must be of type int, string given, called in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 116 and defined in B:\GitHub\schoolbook_oop\app\Controllers\ClassController.php:25
+Stack trace:
+#0 B:\GitHub\schoolbook_oop\app\Routing\Router.php(116): App\Controllers\ClassController->edit('')
+#1 B:\GitHub\schoolbook_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequest('/classes/edit')
+#2 B:\GitHub\schoolbook_oop\app\Routing\Router.php(23): App\Routing\Router->dispatch('POST', '/classes/edit')
+#3 B:\GitHub\schoolbook_oop\Public\index.php(10): App\Routing\Router->handle()
+#4 {main}
+  thrown in B:\GitHub\schoolbook_oop\app\Controllers\ClassController.php on line 25
+[21-May-2025 12:23:17 UTC] PHP Fatal error:  Uncaught TypeError: App\Controllers\ClassController::edit(): Argument #1 ($id) must be of type int, string given, called in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 116 and defined in B:\GitHub\schoolbook_oop\app\Controllers\ClassController.php:25
+Stack trace:
+#0 B:\GitHub\schoolbook_oop\app\Routing\Router.php(116): App\Controllers\ClassController->edit('')
+#1 B:\GitHub\schoolbook_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequest('/classes/edit')
+#2 B:\GitHub\schoolbook_oop\app\Routing\Router.php(23): App\Routing\Router->dispatch('POST', '/classes/edit')
+#3 B:\GitHub\schoolbook_oop\Public\index.php(10): App\Routing\Router->handle()
+#4 {main}
+  thrown in B:\GitHub\schoolbook_oop\app\Controllers\ClassController.php on line 25
+[21-May-2025 12:23:20 UTC] PHP Fatal error:  Uncaught TypeError: App\Controllers\ClassController::edit(): Argument #1 ($id) must be of type int, string given, called in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 116 and defined in B:\GitHub\schoolbook_oop\app\Controllers\ClassController.php:25
+Stack trace:
+#0 B:\GitHub\schoolbook_oop\app\Routing\Router.php(116): App\Controllers\ClassController->edit('')
+#1 B:\GitHub\schoolbook_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequest('/classes/edit')
+#2 B:\GitHub\schoolbook_oop\app\Routing\Router.php(23): App\Routing\Router->dispatch('POST', '/classes/edit')
+#3 B:\GitHub\schoolbook_oop\Public\index.php(10): App\Routing\Router->handle()
+#4 {main}
+  thrown in B:\GitHub\schoolbook_oop\app\Controllers\ClassController.php on line 25
+[21-May-2025 12:24:19 UTC] PHP Fatal error:  Uncaught TypeError: App\Controllers\ClassController::edit(): Argument #1 ($id) must be of type int, string given, called in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 116 and defined in B:\GitHub\schoolbook_oop\app\Controllers\ClassController.php:25
+Stack trace:
+#0 B:\GitHub\schoolbook_oop\app\Routing\Router.php(116): App\Controllers\ClassController->edit('')
+#1 B:\GitHub\schoolbook_oop\app\Routing\Router.php(33): App\Routing\Router->handlePostRequest('/classes/edit')
+#2 B:\GitHub\schoolbook_oop\app\Routing\Router.php(23): App\Routing\Router->dispatch('POST', '/classes/edit')
+#3 B:\GitHub\schoolbook_oop\Public\index.php(10): App\Routing\Router->handle()
+#4 {main}
+  thrown in B:\GitHub\schoolbook_oop\app\Controllers\ClassController.php on line 25
+[21-May-2025 12:24:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 12:27:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 12:27:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 12:28:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 12:28:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 12:28:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:49) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 12:28:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:48) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 12:28:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:48) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 12:28:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:48) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 12:28:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:48) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188

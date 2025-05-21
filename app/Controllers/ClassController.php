@@ -13,7 +13,7 @@ class ClassController extends Controller {
 
     public function index(): void
     {
-        $classes = $this->model->all(['order_by' => ['class', 'schoolYear'], 'direction' => ['DESC']]);
+        $classes = $this->model->all(['order_by' => ['schoolYear', 'class'], 'direction' => ['ASC']]);
         $this->render('classes\index', ['classes' => $classes]);
     }
 

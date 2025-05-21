@@ -10,8 +10,6 @@ echo <<<HTML
     <input type="text" name="lastName" id="name" value="{$students->lastName}">
     <label for="gender">Gender</label>
     <input type="text" name="gender" id="name" value="{$students->gender}">
-    <label for="classID">Gender</label>
-    <input type="text" name="classID" id="name" value="{$students->classID}">
     <br>
     <button type="submit" name="btn-update" class="btn-save"><i class="fa fa-save"></i>&nbsp;Mentés</button>
 </fieldset>
