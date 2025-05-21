@@ -4,6 +4,7 @@ namespace App\Routing;
 
 use App\Controllers\ClassController;
 use App\Controllers\HomeController;
+use App\Controllers\StudentController;
 use App\Controllers\SubjectController;
 use App\Views\Display;
 
@@ -56,6 +57,9 @@ class Router
                 $classcontroller = new ClassController();
                 $classcontroller -> index();
                 break;
+            case '/students':
+                $studentcontroller = new StudentController();
+                $studentcontroller->index();
             default:
                 $this->notFound();
         }
@@ -80,6 +84,21 @@ class Router
             case "/subjects/edit":
                 $subjectController = new SubjectController();
                 $subjectController -> edit($id);
+                break;
+
+            case "/students":
+                if (!empty($data)){
+                    $studentcontroller = new StudentController();
+                    $studentcontroller -> save($data);
+                }
+                break;
+            case "/students/create":
+                $studentcontroller = new StudentController();
+                $studentcontroller -> create();
+                break;
+            case "/students/edit":
+                $studentcontroller = new StudentController();
+                $studentcontroller -> edit($id);
                 break;
 
             case "/classes":
@@ -113,6 +132,12 @@ class Router
                 $subjectController->update($id, $data);
                 break;
 
+            case "/students":
+                $id = $data['id'] ?? null;
+                $studentController = new studentController();
+                $studentController->update($id, $data);
+                break;
+
             case "/classes":
                 $id = $data['id'] ?? null;
                 $classController = new ClassController();
@@ -133,6 +158,11 @@ class Router
             case "/subjects":
                 $subjectController = new SubjectController();
                 $subjectController->delete((int)$data['id']);
+                break;
+
+            case "/students":
+                $studentController = new StudentController();
+                $studentController->delete((int)$data['id']);
                 break;
 
             case "/classes":

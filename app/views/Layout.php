@@ -40,6 +40,7 @@ class Layout
                <li class="nav-button"><a href="/"><button style="button">Főoldal</button></a></li>
                <li class="nav-button"><a href="/subjects"><button style="button">Tantárgyak</button></a></li>
                <li class="nav-button"><a href="/classes"><button style="button">Osztályok</button></a></li>
+               <li class="nav-button"><a href="/students"><button style="button">Tanulók</button></a></li>
             </ul>
         </nav>
     HTML;

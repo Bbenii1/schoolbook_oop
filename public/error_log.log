@@ -1531,3 +1531,384 @@ Stack trace:
 [20-May-2025 18:45:19 UTC] PHP Warning:  Attempt to read property "year" on null in B:\GitHub\school-oop\app\views\classes\edit.php on line 10
 [20-May-2025 19:02:25 UTC] PHP Deprecated:  Creation of dynamic property App\Models\ClassModel::$name is deprecated in B:\GitHub\school-oop\app\Controllers\ClassController.php on line 43
 [20-May-2025 19:02:25 UTC] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+[21-May-2025 11:34:39 UTC] PHP Deprecated:  App\Models\StudentModel::__construct(): Implicitly marking parameter $gender as nullable is deprecated, the explicit nullable type must be used instead in B:\GitHub\schoolbook_oop\app\Models\StudentModel.php on line 14
+[21-May-2025 11:34:39 UTC] PHP Stack trace:
+[21-May-2025 11:34:39 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:34:39 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:34:39 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:34:39 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:34:39 UTC] PHP   5. App\Controllers\StudentController->__construct() B:\GitHub\schoolbook_oop\app\Routing\Router.php:61
+[21-May-2025 11:34:39 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\StudentModel') B:\GitHub\schoolbook_oop\app\Controllers\StudentController.php:10
+[21-May-2025 11:34:39 UTC] PHP   7. {closure:B:\GitHub\schoolbook_oop\vendor\composer\ClassLoader.php:575-577}($file = 'B:\\GitHub\\schoolbook_oop\\vendor\\composer/../../app\\Models\\StudentModel.php') B:\GitHub\schoolbook_oop\vendor\composer\ClassLoader.php:427
+[21-May-2025 11:34:39 UTC] PHP Deprecated:  App\Models\StudentModel::__construct(): Implicitly marking parameter $classID as nullable is deprecated, the explicit nullable type must be used instead in B:\GitHub\schoolbook_oop\app\Models\StudentModel.php on line 14
+[21-May-2025 11:34:39 UTC] PHP Stack trace:
+[21-May-2025 11:34:39 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:34:39 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:34:39 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:34:39 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:34:39 UTC] PHP   5. App\Controllers\StudentController->__construct() B:\GitHub\schoolbook_oop\app\Routing\Router.php:61
+[21-May-2025 11:34:39 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\StudentModel') B:\GitHub\schoolbook_oop\app\Controllers\StudentController.php:10
+[21-May-2025 11:34:39 UTC] PHP   7. {closure:B:\GitHub\schoolbook_oop\vendor\composer\ClassLoader.php:575-577}($file = 'B:\\GitHub\\schoolbook_oop\\vendor\\composer/../../app\\Models\\StudentModel.php') B:\GitHub\schoolbook_oop\vendor\composer\ClassLoader.php:427
+[21-May-2025 11:34:39 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\students\index.php.php
+[21-May-2025 11:34:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Models\StudentModel.php:14) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:34:39 UTC] PHP Stack trace:
+[21-May-2025 11:34:39 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:34:39 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:34:39 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:34:39 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:34:39 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:34:39 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:34:43 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\students\index.php.php
+[21-May-2025 11:36:36 UTC] PHP Warning:  Undefined variable $student in B:\GitHub\schoolbook_oop\app\Views\students\index.php on line 4
+[21-May-2025 11:36:36 UTC] PHP Stack trace:
+[21-May-2025 11:36:36 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:36:36 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:36:36 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:36:36 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:36:36 UTC] PHP   5. App\Controllers\StudentController->index() B:\GitHub\schoolbook_oop\app\Routing\Router.php:62
+[21-May-2025 11:36:36 UTC] PHP   6. App\Controllers\Controller->render($view = 'students\\index', $data = ['students' => [0 => class App\Models\StudentModel { ... }, 1 => class App\Models\StudentModel { ... }, 2 => class App\Models\StudentModel { ... }, 3 => class App\Models\StudentModel { ... }, 4 => class App\Models\StudentModel { ... }, 5 => class App\Models\StudentModel { ... }, 6 => class App\Models\StudentModel { ... }, 7 => class App\Models\StudentModel { ... }, 8 => class App\Models\StudentModel { ... }, 9 => class App\Models\StudentModel { ... }, 10 => class App\Models\StudentModel { ... }, 11 => class App\Models\StudentModel { ... }, 12 => class App\Models\StudentModel { ... }, 13 => class App\Models\StudentModel { ... }, 14 => class App\Models\StudentModel { ... }, 15 => class App\Models\StudentModel { ... }, 16 => class App\Models\StudentModel { ... }, 17 => class App\Models\StudentModel { ... }, 18 => class App\Models\StudentModel { ... }, 19 => class App\Models\StudentModel { ... }, 20 => class App\Models\StudentModel { ... }, 21 => class App\Models\StudentModel { ... }, 22 => class App\Models\StudentModel { ... }, 23 => class App\Models\StudentModel { ... }, 24 => class App\Models\StudentModel { ... }, 25 => class App\Models\StudentModel { ... }, 26 => class App\Models\StudentModel { ... }, 27 => class App\Models\StudentModel { ... }, 28 => class App\Models\StudentModel { ... }, 29 => class App\Models\StudentModel { ... }, 30 => class App\Models\StudentModel { ... }, 31 => class App\Models\StudentModel { ... }, 32 => class App\Models\StudentModel { ... }, 33 => class App\Models\StudentModel { ... }, 34 => class App\Models\StudentModel { ... }, 35 => class App\Models\StudentModel { ... }, 36 => class App\Models\StudentModel { ... }, 37 => class App\Models\StudentModel { ... }, 38 => class App\Models\StudentModel { ... }, 39 => class App\Models\StudentModel { ... }, 40 => class App\Models\StudentModel { ... }, 41 => class App\Models\StudentModel { ... }, 42 => class App\Models\StudentModel { ... }, 43 => class App\Models\StudentModel { ... }, 44 => class App\Models\StudentModel { ... }, 45 => class App\Models\StudentModel { ... }, 46 => class App\Models\StudentModel { ... }, 47 => class App\Models\StudentModel { ... }, 48 => class App\Models\StudentModel { ... }, 49 => class App\Models\StudentModel { ... }, 50 => class App\Models\StudentModel { ... }, 51 => class App\Models\StudentModel { ... }, 52 => class App\Models\StudentModel { ... }, 53 => class App\Models\StudentModel { ... }, 54 => class App\Models\StudentModel { ... }, 55 => class App\Models\StudentModel { ... }, 56 => class App\Models\StudentModel { ... }, 57 => class App\Models\StudentModel { ... }, 58 => class App\Models\StudentModel { ... }, 59 => class App\Models\StudentModel { ... }, 60 => class App\Models\StudentModel { ... }, 61 => class App\Models\StudentModel { ... }, 62 => class App\Models\StudentModel { ... }, 63 => class App\Models\StudentModel { ... }, 64 => class App\Models\StudentModel { ... }, 65 => class App\Models\StudentModel { ... }, 66 => class App\Models\StudentModel { ... }, 67 => class App\Models\StudentModel { ... }, 68 => class App\Models\StudentModel { ... }, 69 => class App\Models\StudentModel { ... }, 70 => class App\Models\StudentModel { ... }, 71 => class App\Models\StudentModel { ... }, 72 => class App\Models\StudentModel { ... }, 73 => class App\Models\StudentModel { ... }, 74 => class App\Models\StudentModel { ... }, 75 => class App\Models\StudentModel { ... }, 76 => class App\Models\StudentModel { ... }, 77 => class App\Models\StudentModel { ... }, 78 => class App\Models\StudentModel { ... }, 79 => class App\Models\StudentModel { ... }, 80 => class App\Models\StudentModel { ... }, 81 => class App\Models\StudentModel { ... }, 82 => class App\Models\StudentModel { ... }, 83 => class App\Models\StudentModel { ... }, 84 => class App\Models\StudentModel { ... }, 85 => class App\Models\StudentModel { ... }, 86 => class App\Models\StudentModel { ... }, 87 => class App\Models\StudentModel { ... }, 88 => class App\Models\StudentModel { ... }, 89 => class App\Models\StudentModel { ... }, 90 => class App\Models\StudentModel { ... }, 91 => class App\Models\StudentModel { ... }, 92 => class App\Models\StudentModel { ... }, 93 => class App\Models\StudentModel { ... }, 94 => class App\Models\StudentModel { ... }, 95 => class App\Models\StudentModel { ... }, 96 => class App\Models\StudentModel { ... }, 97 => class App\Models\StudentModel { ... }, 98 => class App\Models\StudentModel { ... }, 99 => class App\Models\StudentModel { ... }, 100 => class App\Models\StudentModel { ... }, 101 => class App\Models\StudentModel { ... }, 102 => class App\Models\StudentModel { ... }, 103 => class App\Models\StudentModel { ... }, 104 => class App\Models\StudentModel { ... }, 105 => class App\Models\StudentModel { ... }, 106 => class App\Models\StudentModel { ... }, 107 => class App\Models\StudentModel { ... }, 108 => class App\Models\StudentModel { ... }, 109 => class App\Models\StudentModel { ... }, 110 => class App\Models\StudentModel { ... }, 111 => class App\Models\StudentModel { ... }, 112 => class App\Models\StudentModel { ... }, 113 => class App\Models\StudentModel { ... }, 114 => class App\Models\StudentModel { ... }, 115 => class App\Models\StudentModel { ... }, 116 => class App\Models\StudentModel { ... }, 117 => class App\Models\StudentModel { ... }, 118 => class App\Models\StudentModel { ... }, 119 => class App\Models\StudentModel { ... }, 120 => class App\Models\StudentModel { ... }, 121 => class App\Models\StudentModel { ... }, 122 => class App\Models\StudentModel { ... }, 123 => class App\Models\StudentModel { ... }, 124 => class App\Models\StudentModel { ... }, 125 => class App\Models\StudentModel { ... }, 126 => class App\Models\StudentModel { ... }, 127 => class App\Models\StudentModel { ... }, ...]]) B:\GitHub\schoolbook_oop\app\Controllers\StudentController.php:17
+[21-May-2025 11:36:36 UTC] PHP   7. App\Views\View::render($view = 'students\\index', $data = ['students' => [0 => class App\Models\StudentModel { ... }, 1 => class App\Models\StudentModel { ... }, 2 => class App\Models\StudentModel { ... }, 3 => class App\Models\StudentModel { ... }, 4 => class App\Models\StudentModel { ... }, 5 => class App\Models\StudentModel { ... }, 6 => class App\Models\StudentModel { ... }, 7 => class App\Models\StudentModel { ... }, 8 => class App\Models\StudentModel { ... }, 9 => class App\Models\StudentModel { ... }, 10 => class App\Models\StudentModel { ... }, 11 => class App\Models\StudentModel { ... }, 12 => class App\Models\StudentModel { ... }, 13 => class App\Models\StudentModel { ... }, 14 => class App\Models\StudentModel { ... }, 15 => class App\Models\StudentModel { ... }, 16 => class App\Models\StudentModel { ... }, 17 => class App\Models\StudentModel { ... }, 18 => class App\Models\StudentModel { ... }, 19 => class App\Models\StudentModel { ... }, 20 => class App\Models\StudentModel { ... }, 21 => class App\Models\StudentModel { ... }, 22 => class App\Models\StudentModel { ... }, 23 => class App\Models\StudentModel { ... }, 24 => class App\Models\StudentModel { ... }, 25 => class App\Models\StudentModel { ... }, 26 => class App\Models\StudentModel { ... }, 27 => class App\Models\StudentModel { ... }, 28 => class App\Models\StudentModel { ... }, 29 => class App\Models\StudentModel { ... }, 30 => class App\Models\StudentModel { ... }, 31 => class App\Models\StudentModel { ... }, 32 => class App\Models\StudentModel { ... }, 33 => class App\Models\StudentModel { ... }, 34 => class App\Models\StudentModel { ... }, 35 => class App\Models\StudentModel { ... }, 36 => class App\Models\StudentModel { ... }, 37 => class App\Models\StudentModel { ... }, 38 => class App\Models\StudentModel { ... }, 39 => class App\Models\StudentModel { ... }, 40 => class App\Models\StudentModel { ... }, 41 => class App\Models\StudentModel { ... }, 42 => class App\Models\StudentModel { ... }, 43 => class App\Models\StudentModel { ... }, 44 => class App\Models\StudentModel { ... }, 45 => class App\Models\StudentModel { ... }, 46 => class App\Models\StudentModel { ... }, 47 => class App\Models\StudentModel { ... }, 48 => class App\Models\StudentModel { ... }, 49 => class App\Models\StudentModel { ... }, 50 => class App\Models\StudentModel { ... }, 51 => class App\Models\StudentModel { ... }, 52 => class App\Models\StudentModel { ... }, 53 => class App\Models\StudentModel { ... }, 54 => class App\Models\StudentModel { ... }, 55 => class App\Models\StudentModel { ... }, 56 => class App\Models\StudentModel { ... }, 57 => class App\Models\StudentModel { ... }, 58 => class App\Models\StudentModel { ... }, 59 => class App\Models\StudentModel { ... }, 60 => class App\Models\StudentModel { ... }, 61 => class App\Models\StudentModel { ... }, 62 => class App\Models\StudentModel { ... }, 63 => class App\Models\StudentModel { ... }, 64 => class App\Models\StudentModel { ... }, 65 => class App\Models\StudentModel { ... }, 66 => class App\Models\StudentModel { ... }, 67 => class App\Models\StudentModel { ... }, 68 => class App\Models\StudentModel { ... }, 69 => class App\Models\StudentModel { ... }, 70 => class App\Models\StudentModel { ... }, 71 => class App\Models\StudentModel { ... }, 72 => class App\Models\StudentModel { ... }, 73 => class App\Models\StudentModel { ... }, 74 => class App\Models\StudentModel { ... }, 75 => class App\Models\StudentModel { ... }, 76 => class App\Models\StudentModel { ... }, 77 => class App\Models\StudentModel { ... }, 78 => class App\Models\StudentModel { ... }, 79 => class App\Models\StudentModel { ... }, 80 => class App\Models\StudentModel { ... }, 81 => class App\Models\StudentModel { ... }, 82 => class App\Models\StudentModel { ... }, 83 => class App\Models\StudentModel { ... }, 84 => class App\Models\StudentModel { ... }, 85 => class App\Models\StudentModel { ... }, 86 => class App\Models\StudentModel { ... }, 87 => class App\Models\StudentModel { ... }, 88 => class App\Models\StudentModel { ... }, 89 => class App\Models\StudentModel { ... }, 90 => class App\Models\StudentModel { ... }, 91 => class App\Models\StudentModel { ... }, 92 => class App\Models\StudentModel { ... }, 93 => class App\Models\StudentModel { ... }, 94 => class App\Models\StudentModel { ... }, 95 => class App\Models\StudentModel { ... }, 96 => class App\Models\StudentModel { ... }, 97 => class App\Models\StudentModel { ... }, 98 => class App\Models\StudentModel { ... }, 99 => class App\Models\StudentModel { ... }, 100 => class App\Models\StudentModel { ... }, 101 => class App\Models\StudentModel { ... }, 102 => class App\Models\StudentModel { ... }, 103 => class App\Models\StudentModel { ... }, 104 => class App\Models\StudentModel { ... }, 105 => class App\Models\StudentModel { ... }, 106 => class App\Models\StudentModel { ... }, 107 => class App\Models\StudentModel { ... }, 108 => class App\Models\StudentModel { ... }, 109 => class App\Models\StudentModel { ... }, 110 => class App\Models\StudentModel { ... }, 111 => class App\Models\StudentModel { ... }, 112 => class App\Models\StudentModel { ... }, 113 => class App\Models\StudentModel { ... }, 114 => class App\Models\StudentModel { ... }, 115 => class App\Models\StudentModel { ... }, 116 => class App\Models\StudentModel { ... }, 117 => class App\Models\StudentModel { ... }, 118 => class App\Models\StudentModel { ... }, 119 => class App\Models\StudentModel { ... }, 120 => class App\Models\StudentModel { ... }, 121 => class App\Models\StudentModel { ... }, 122 => class App\Models\StudentModel { ... }, 123 => class App\Models\StudentModel { ... }, 124 => class App\Models\StudentModel { ... }, 125 => class App\Models\StudentModel { ... }, 126 => class App\Models\StudentModel { ... }, 127 => class App\Models\StudentModel { ... }, ...]], $useLayout = *uninitialized*) B:\GitHub\schoolbook_oop\app\Controllers\Controller.php:27
+[21-May-2025 11:36:36 UTC] PHP   8. include() B:\GitHub\schoolbook_oop\app\Views\View.php:23
+[21-May-2025 11:36:36 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in B:\GitHub\schoolbook_oop\app\Views\students\index.php on line 4
+[21-May-2025 11:36:36 UTC] PHP Stack trace:
+[21-May-2025 11:36:36 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:36:36 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:36:36 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:36:36 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:36:36 UTC] PHP   5. App\Controllers\StudentController->index() B:\GitHub\schoolbook_oop\app\Routing\Router.php:62
+[21-May-2025 11:36:36 UTC] PHP   6. App\Controllers\Controller->render($view = 'students\\index', $data = ['students' => [0 => class App\Models\StudentModel { ... }, 1 => class App\Models\StudentModel { ... }, 2 => class App\Models\StudentModel { ... }, 3 => class App\Models\StudentModel { ... }, 4 => class App\Models\StudentModel { ... }, 5 => class App\Models\StudentModel { ... }, 6 => class App\Models\StudentModel { ... }, 7 => class App\Models\StudentModel { ... }, 8 => class App\Models\StudentModel { ... }, 9 => class App\Models\StudentModel { ... }, 10 => class App\Models\StudentModel { ... }, 11 => class App\Models\StudentModel { ... }, 12 => class App\Models\StudentModel { ... }, 13 => class App\Models\StudentModel { ... }, 14 => class App\Models\StudentModel { ... }, 15 => class App\Models\StudentModel { ... }, 16 => class App\Models\StudentModel { ... }, 17 => class App\Models\StudentModel { ... }, 18 => class App\Models\StudentModel { ... }, 19 => class App\Models\StudentModel { ... }, 20 => class App\Models\StudentModel { ... }, 21 => class App\Models\StudentModel { ... }, 22 => class App\Models\StudentModel { ... }, 23 => class App\Models\StudentModel { ... }, 24 => class App\Models\StudentModel { ... }, 25 => class App\Models\StudentModel { ... }, 26 => class App\Models\StudentModel { ... }, 27 => class App\Models\StudentModel { ... }, 28 => class App\Models\StudentModel { ... }, 29 => class App\Models\StudentModel { ... }, 30 => class App\Models\StudentModel { ... }, 31 => class App\Models\StudentModel { ... }, 32 => class App\Models\StudentModel { ... }, 33 => class App\Models\StudentModel { ... }, 34 => class App\Models\StudentModel { ... }, 35 => class App\Models\StudentModel { ... }, 36 => class App\Models\StudentModel { ... }, 37 => class App\Models\StudentModel { ... }, 38 => class App\Models\StudentModel { ... }, 39 => class App\Models\StudentModel { ... }, 40 => class App\Models\StudentModel { ... }, 41 => class App\Models\StudentModel { ... }, 42 => class App\Models\StudentModel { ... }, 43 => class App\Models\StudentModel { ... }, 44 => class App\Models\StudentModel { ... }, 45 => class App\Models\StudentModel { ... }, 46 => class App\Models\StudentModel { ... }, 47 => class App\Models\StudentModel { ... }, 48 => class App\Models\StudentModel { ... }, 49 => class App\Models\StudentModel { ... }, 50 => class App\Models\StudentModel { ... }, 51 => class App\Models\StudentModel { ... }, 52 => class App\Models\StudentModel { ... }, 53 => class App\Models\StudentModel { ... }, 54 => class App\Models\StudentModel { ... }, 55 => class App\Models\StudentModel { ... }, 56 => class App\Models\StudentModel { ... }, 57 => class App\Models\StudentModel { ... }, 58 => class App\Models\StudentModel { ... }, 59 => class App\Models\StudentModel { ... }, 60 => class App\Models\StudentModel { ... }, 61 => class App\Models\StudentModel { ... }, 62 => class App\Models\StudentModel { ... }, 63 => class App\Models\StudentModel { ... }, 64 => class App\Models\StudentModel { ... }, 65 => class App\Models\StudentModel { ... }, 66 => class App\Models\StudentModel { ... }, 67 => class App\Models\StudentModel { ... }, 68 => class App\Models\StudentModel { ... }, 69 => class App\Models\StudentModel { ... }, 70 => class App\Models\StudentModel { ... }, 71 => class App\Models\StudentModel { ... }, 72 => class App\Models\StudentModel { ... }, 73 => class App\Models\StudentModel { ... }, 74 => class App\Models\StudentModel { ... }, 75 => class App\Models\StudentModel { ... }, 76 => class App\Models\StudentModel { ... }, 77 => class App\Models\StudentModel { ... }, 78 => class App\Models\StudentModel { ... }, 79 => class App\Models\StudentModel { ... }, 80 => class App\Models\StudentModel { ... }, 81 => class App\Models\StudentModel { ... }, 82 => class App\Models\StudentModel { ... }, 83 => class App\Models\StudentModel { ... }, 84 => class App\Models\StudentModel { ... }, 85 => class App\Models\StudentModel { ... }, 86 => class App\Models\StudentModel { ... }, 87 => class App\Models\StudentModel { ... }, 88 => class App\Models\StudentModel { ... }, 89 => class App\Models\StudentModel { ... }, 90 => class App\Models\StudentModel { ... }, 91 => class App\Models\StudentModel { ... }, 92 => class App\Models\StudentModel { ... }, 93 => class App\Models\StudentModel { ... }, 94 => class App\Models\StudentModel { ... }, 95 => class App\Models\StudentModel { ... }, 96 => class App\Models\StudentModel { ... }, 97 => class App\Models\StudentModel { ... }, 98 => class App\Models\StudentModel { ... }, 99 => class App\Models\StudentModel { ... }, 100 => class App\Models\StudentModel { ... }, 101 => class App\Models\StudentModel { ... }, 102 => class App\Models\StudentModel { ... }, 103 => class App\Models\StudentModel { ... }, 104 => class App\Models\StudentModel { ... }, 105 => class App\Models\StudentModel { ... }, 106 => class App\Models\StudentModel { ... }, 107 => class App\Models\StudentModel { ... }, 108 => class App\Models\StudentModel { ... }, 109 => class App\Models\StudentModel { ... }, 110 => class App\Models\StudentModel { ... }, 111 => class App\Models\StudentModel { ... }, 112 => class App\Models\StudentModel { ... }, 113 => class App\Models\StudentModel { ... }, 114 => class App\Models\StudentModel { ... }, 115 => class App\Models\StudentModel { ... }, 116 => class App\Models\StudentModel { ... }, 117 => class App\Models\StudentModel { ... }, 118 => class App\Models\StudentModel { ... }, 119 => class App\Models\StudentModel { ... }, 120 => class App\Models\StudentModel { ... }, 121 => class App\Models\StudentModel { ... }, 122 => class App\Models\StudentModel { ... }, 123 => class App\Models\StudentModel { ... }, 124 => class App\Models\StudentModel { ... }, 125 => class App\Models\StudentModel { ... }, 126 => class App\Models\StudentModel { ... }, 127 => class App\Models\StudentModel { ... }, ...]]) B:\GitHub\schoolbook_oop\app\Controllers\StudentController.php:17
+[21-May-2025 11:36:36 UTC] PHP   7. App\Views\View::render($view = 'students\\index', $data = ['students' => [0 => class App\Models\StudentModel { ... }, 1 => class App\Models\StudentModel { ... }, 2 => class App\Models\StudentModel { ... }, 3 => class App\Models\StudentModel { ... }, 4 => class App\Models\StudentModel { ... }, 5 => class App\Models\StudentModel { ... }, 6 => class App\Models\StudentModel { ... }, 7 => class App\Models\StudentModel { ... }, 8 => class App\Models\StudentModel { ... }, 9 => class App\Models\StudentModel { ... }, 10 => class App\Models\StudentModel { ... }, 11 => class App\Models\StudentModel { ... }, 12 => class App\Models\StudentModel { ... }, 13 => class App\Models\StudentModel { ... }, 14 => class App\Models\StudentModel { ... }, 15 => class App\Models\StudentModel { ... }, 16 => class App\Models\StudentModel { ... }, 17 => class App\Models\StudentModel { ... }, 18 => class App\Models\StudentModel { ... }, 19 => class App\Models\StudentModel { ... }, 20 => class App\Models\StudentModel { ... }, 21 => class App\Models\StudentModel { ... }, 22 => class App\Models\StudentModel { ... }, 23 => class App\Models\StudentModel { ... }, 24 => class App\Models\StudentModel { ... }, 25 => class App\Models\StudentModel { ... }, 26 => class App\Models\StudentModel { ... }, 27 => class App\Models\StudentModel { ... }, 28 => class App\Models\StudentModel { ... }, 29 => class App\Models\StudentModel { ... }, 30 => class App\Models\StudentModel { ... }, 31 => class App\Models\StudentModel { ... }, 32 => class App\Models\StudentModel { ... }, 33 => class App\Models\StudentModel { ... }, 34 => class App\Models\StudentModel { ... }, 35 => class App\Models\StudentModel { ... }, 36 => class App\Models\StudentModel { ... }, 37 => class App\Models\StudentModel { ... }, 38 => class App\Models\StudentModel { ... }, 39 => class App\Models\StudentModel { ... }, 40 => class App\Models\StudentModel { ... }, 41 => class App\Models\StudentModel { ... }, 42 => class App\Models\StudentModel { ... }, 43 => class App\Models\StudentModel { ... }, 44 => class App\Models\StudentModel { ... }, 45 => class App\Models\StudentModel { ... }, 46 => class App\Models\StudentModel { ... }, 47 => class App\Models\StudentModel { ... }, 48 => class App\Models\StudentModel { ... }, 49 => class App\Models\StudentModel { ... }, 50 => class App\Models\StudentModel { ... }, 51 => class App\Models\StudentModel { ... }, 52 => class App\Models\StudentModel { ... }, 53 => class App\Models\StudentModel { ... }, 54 => class App\Models\StudentModel { ... }, 55 => class App\Models\StudentModel { ... }, 56 => class App\Models\StudentModel { ... }, 57 => class App\Models\StudentModel { ... }, 58 => class App\Models\StudentModel { ... }, 59 => class App\Models\StudentModel { ... }, 60 => class App\Models\StudentModel { ... }, 61 => class App\Models\StudentModel { ... }, 62 => class App\Models\StudentModel { ... }, 63 => class App\Models\StudentModel { ... }, 64 => class App\Models\StudentModel { ... }, 65 => class App\Models\StudentModel { ... }, 66 => class App\Models\StudentModel { ... }, 67 => class App\Models\StudentModel { ... }, 68 => class App\Models\StudentModel { ... }, 69 => class App\Models\StudentModel { ... }, 70 => class App\Models\StudentModel { ... }, 71 => class App\Models\StudentModel { ... }, 72 => class App\Models\StudentModel { ... }, 73 => class App\Models\StudentModel { ... }, 74 => class App\Models\StudentModel { ... }, 75 => class App\Models\StudentModel { ... }, 76 => class App\Models\StudentModel { ... }, 77 => class App\Models\StudentModel { ... }, 78 => class App\Models\StudentModel { ... }, 79 => class App\Models\StudentModel { ... }, 80 => class App\Models\StudentModel { ... }, 81 => class App\Models\StudentModel { ... }, 82 => class App\Models\StudentModel { ... }, 83 => class App\Models\StudentModel { ... }, 84 => class App\Models\StudentModel { ... }, 85 => class App\Models\StudentModel { ... }, 86 => class App\Models\StudentModel { ... }, 87 => class App\Models\StudentModel { ... }, 88 => class App\Models\StudentModel { ... }, 89 => class App\Models\StudentModel { ... }, 90 => class App\Models\StudentModel { ... }, 91 => class App\Models\StudentModel { ... }, 92 => class App\Models\StudentModel { ... }, 93 => class App\Models\StudentModel { ... }, 94 => class App\Models\StudentModel { ... }, 95 => class App\Models\StudentModel { ... }, 96 => class App\Models\StudentModel { ... }, 97 => class App\Models\StudentModel { ... }, 98 => class App\Models\StudentModel { ... }, 99 => class App\Models\StudentModel { ... }, 100 => class App\Models\StudentModel { ... }, 101 => class App\Models\StudentModel { ... }, 102 => class App\Models\StudentModel { ... }, 103 => class App\Models\StudentModel { ... }, 104 => class App\Models\StudentModel { ... }, 105 => class App\Models\StudentModel { ... }, 106 => class App\Models\StudentModel { ... }, 107 => class App\Models\StudentModel { ... }, 108 => class App\Models\StudentModel { ... }, 109 => class App\Models\StudentModel { ... }, 110 => class App\Models\StudentModel { ... }, 111 => class App\Models\StudentModel { ... }, 112 => class App\Models\StudentModel { ... }, 113 => class App\Models\StudentModel { ... }, 114 => class App\Models\StudentModel { ... }, 115 => class App\Models\StudentModel { ... }, 116 => class App\Models\StudentModel { ... }, 117 => class App\Models\StudentModel { ... }, 118 => class App\Models\StudentModel { ... }, 119 => class App\Models\StudentModel { ... }, 120 => class App\Models\StudentModel { ... }, 121 => class App\Models\StudentModel { ... }, 122 => class App\Models\StudentModel { ... }, 123 => class App\Models\StudentModel { ... }, 124 => class App\Models\StudentModel { ... }, 125 => class App\Models\StudentModel { ... }, 126 => class App\Models\StudentModel { ... }, 127 => class App\Models\StudentModel { ... }, ...]], $useLayout = *uninitialized*) B:\GitHub\schoolbook_oop\app\Controllers\Controller.php:27
+[21-May-2025 11:36:36 UTC] PHP   8. include() B:\GitHub\schoolbook_oop\app\Views\View.php:23
+[21-May-2025 11:36:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:4) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:36:36 UTC] PHP Stack trace:
+[21-May-2025 11:36:36 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:36:36 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:36:36 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:36:36 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:36:36 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:36:36 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:36:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:46) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:36:48 UTC] PHP Stack trace:
+[21-May-2025 11:36:48 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:36:48 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:36:48 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:36:48 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:36:48 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:36:48 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:37:51 UTC] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[21-May-2025 11:37:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:46) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:37:54 UTC] PHP Stack trace:
+[21-May-2025 11:37:54 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:37:54 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:37:54 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:37:54 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:37:54 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:37:54 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:40:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:46) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:40:32 UTC] PHP Stack trace:
+[21-May-2025 11:40:32 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:40:32 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:40:32 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:40:32 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:40:32 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:40:32 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:40:33 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\students/create.php
+[21-May-2025 11:40:36 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\students/edit.php
+[21-May-2025 11:40:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:46) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:40:38 UTC] PHP Stack trace:
+[21-May-2025 11:40:38 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:40:38 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:40:38 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:40:38 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:40:38 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:40:38 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:40:39 UTC] View not found: B:\GitHub\schoolbook_oop\app\Views\students/edit.php
+[21-May-2025 11:40:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:46) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:40:59 UTC] PHP Stack trace:
+[21-May-2025 11:40:59 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:40:59 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:40:59 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:40:59 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:40:59 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:40:59 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:41:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:46) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:41:01 UTC] PHP Stack trace:
+[21-May-2025 11:41:01 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:41:01 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:41:01 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:41:01 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:41:01 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:41:01 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:42:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:46) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:42:15 UTC] PHP Stack trace:
+[21-May-2025 11:42:15 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:42:15 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:42:15 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:42:15 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:42:15 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:42:15 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:42:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:46) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:42:56 UTC] PHP Stack trace:
+[21-May-2025 11:42:56 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:42:56 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:42:56 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:42:56 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:42:56 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:42:56 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:43:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:46) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:43:00 UTC] PHP Stack trace:
+[21-May-2025 11:43:00 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:43:00 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:43:00 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:43:00 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:43:00 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:43:00 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:43:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:46) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:43:02 UTC] PHP Stack trace:
+[21-May-2025 11:43:02 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:43:02 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:43:02 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:43:02 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:43:02 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:43:02 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:45:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:46) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:45:13 UTC] PHP Stack trace:
+[21-May-2025 11:45:13 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:45:13 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:45:13 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:45:13 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:45:13 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:45:13 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:45:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:46) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:45:19 UTC] PHP Stack trace:
+[21-May-2025 11:45:19 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:45:19 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:45:19 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:45:19 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:45:19 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:45:19 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:45:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:46) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:45:50 UTC] PHP Stack trace:
+[21-May-2025 11:45:50 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:45:50 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:45:50 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:45:50 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:45:50 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:45:50 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:46:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:46) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:46:09 UTC] PHP Stack trace:
+[21-May-2025 11:46:09 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:46:09 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:46:09 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:46:09 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:46:09 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:46:09 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:46:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:46) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:46:12 UTC] PHP Stack trace:
+[21-May-2025 11:46:12 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:46:12 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:46:12 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:46:12 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:46:12 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:46:12 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:46:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:46) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:46:16 UTC] PHP Stack trace:
+[21-May-2025 11:46:16 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:46:16 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:46:16 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:46:16 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:46:16 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:46:16 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:46:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:46) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:46:50 UTC] PHP Stack trace:
+[21-May-2025 11:46:50 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:46:50 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:46:50 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:46:50 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:46:50 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:46:50 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:49:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:49:03 UTC] PHP Stack trace:
+[21-May-2025 11:49:03 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:49:03 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:49:03 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:49:03 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:49:03 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:49:03 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:49:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:49:25 UTC] PHP Stack trace:
+[21-May-2025 11:49:25 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:49:25 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:49:25 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:49:25 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:49:25 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:49:25 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:49:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:49:48 UTC] PHP Stack trace:
+[21-May-2025 11:49:48 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:49:48 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:49:48 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:49:48 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:49:48 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:49:48 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:49:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:49:53 UTC] PHP Stack trace:
+[21-May-2025 11:49:53 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:49:53 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:49:53 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:49:53 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:49:53 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:49:53 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:49:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:49:57 UTC] PHP Stack trace:
+[21-May-2025 11:49:57 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:49:57 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:49:57 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:49:57 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:49:57 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:49:57 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:50:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:50:18 UTC] PHP Stack trace:
+[21-May-2025 11:50:18 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:50:18 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:50:18 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:50:18 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:50:18 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:50:18 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:50:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:50:24 UTC] PHP Stack trace:
+[21-May-2025 11:50:24 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:50:24 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:50:24 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:50:24 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:50:24 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:50:24 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:50:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:50:27 UTC] PHP Stack trace:
+[21-May-2025 11:50:27 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:50:27 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:50:27 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:50:27 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:50:27 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:50:27 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:50:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:50:36 UTC] PHP Stack trace:
+[21-May-2025 11:50:36 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:50:36 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:50:36 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:50:36 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:50:36 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:50:36 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:50:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:50:40 UTC] PHP Stack trace:
+[21-May-2025 11:50:40 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:50:40 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:50:40 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:50:40 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:50:40 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:50:40 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:51:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:51:20 UTC] PHP Stack trace:
+[21-May-2025 11:51:20 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:51:20 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:51:20 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:51:20 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:51:20 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:51:20 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:52:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:52:30 UTC] PHP Stack trace:
+[21-May-2025 11:52:30 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:52:30 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:52:30 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:52:30 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:52:30 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:52:30 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:52:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:52:31 UTC] PHP Stack trace:
+[21-May-2025 11:52:31 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:52:31 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:52:31 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:52:31 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:52:31 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:52:31 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:52:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:52:32 UTC] PHP Stack trace:
+[21-May-2025 11:52:32 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:52:32 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:52:32 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:52:32 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:52:32 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:52:32 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:52:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:52:37 UTC] PHP Stack trace:
+[21-May-2025 11:52:37 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:52:37 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:52:37 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:52:37 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:52:37 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:52:37 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:54:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:54:20 UTC] PHP Stack trace:
+[21-May-2025 11:54:20 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:54:20 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:54:20 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:54:20 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:54:20 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:54:20 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:54:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:54:24 UTC] PHP Stack trace:
+[21-May-2025 11:54:24 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:54:24 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:54:24 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:54:24 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:54:24 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:54:24 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:54:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:54:31 UTC] PHP Stack trace:
+[21-May-2025 11:54:31 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:54:31 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:54:31 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:54:31 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:54:31 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:54:31 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:54:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:54:44 UTC] PHP Stack trace:
+[21-May-2025 11:54:44 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:54:44 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:54:44 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:54:44 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:54:44 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:54:44 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:55:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:55:42 UTC] PHP Stack trace:
+[21-May-2025 11:55:42 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:55:42 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:55:42 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:55:42 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:55:42 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:55:42 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:56:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:56:09 UTC] PHP Stack trace:
+[21-May-2025 11:56:09 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:56:09 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:56:09 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:56:09 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:56:09 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:56:09 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:57:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:57:25 UTC] PHP Stack trace:
+[21-May-2025 11:57:25 UTC] PHP   1. {main}() B:\GitHub\schoolbook_oop\Public\index.php:0
+[21-May-2025 11:57:25 UTC] PHP   2. App\Routing\Router->handle() B:\GitHub\schoolbook_oop\Public\index.php:10
+[21-May-2025 11:57:25 UTC] PHP   3. App\Routing\Router->dispatch($method = 'GET', $uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:23
+[21-May-2025 11:57:25 UTC] PHP   4. App\Routing\Router->handleGetRequest($uri = '/students') B:\GitHub\schoolbook_oop\app\Routing\Router.php:30
+[21-May-2025 11:57:25 UTC] PHP   5. App\Routing\Router->notFound() B:\GitHub\schoolbook_oop\app\Routing\Router.php:64
+[21-May-2025 11:57:25 UTC] PHP   6. header($header = 'HTTP/1.1 404 Not Found') B:\GitHub\schoolbook_oop\app\Routing\Router.php:188
+[21-May-2025 11:57:49 UTC] PHP Deprecated:  App\Models\StudentModel::__construct(): Implicitly marking parameter $gender as nullable is deprecated, the explicit nullable type must be used instead in B:\GitHub\schoolbook_oop\app\Models\StudentModel.php on line 14
+[21-May-2025 11:57:49 UTC] PHP Deprecated:  App\Models\StudentModel::__construct(): Implicitly marking parameter $classID as nullable is deprecated, the explicit nullable type must be used instead in B:\GitHub\schoolbook_oop\app\Models\StudentModel.php on line 14
+[21-May-2025 11:57:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:58:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 11:59:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 12:00:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 12:01:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 12:01:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
+[21-May-2025 12:01:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at B:\GitHub\schoolbook_oop\app\Views\students\index.php:50) in B:\GitHub\schoolbook_oop\app\Routing\Router.php on line 188
